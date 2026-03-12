@@ -1,0 +1,252 @@
+body{
+margin:0;
+font-family:Georgia, serif;
+background:#0b0b0b;
+color:white;
+}
+
+
+/* TOPO */
+
+.topo{
+display:flex;
+align-items:center;
+padding:18px 40px;
+background:black;
+border-bottom:1px solid rgba(201,169,110,0.3);
+}
+
+.logo{
+width:70px;
+margin-right:20px;
+}
+
+h1{
+color:#c9a96e;
+font-size:22px;
+}
+
+
+
+/* EQUIPE */
+
+.equipe{
+padding:100px 20px;
+text-align:center;
+}
+
+.equipe h2{
+color:#c9a96e;
+margin-bottom:50px;
+}
+
+.advogados{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+}
+
+.card{
+width:270px;
+border-radius:12px;
+overflow:hidden;
+background:#111;
+border:1px solid rgba(201,169,110,0.2);
+transition:0.3s;
+text-decoration:none;
+color:white;
+}
+
+.card:hover{
+transform:translateY(-10px);
+border:1px solid #c9a96e;
+}
+
+.img-box{
+height:340px;
+}
+
+.img-box img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.info{
+padding:18px;
+}
+
+.info h3{
+color:#c9a96e;
+}
+
+
+
+/* BANNER */
+
+.banner{
+text-align:center;
+padding:120px 20px;
+background:linear-gradient(180deg,#111,#0b0b0b);
+}
+
+.banner h2{
+color:#c9a96e;
+font-size:36px;
+}
+
+.banner p{
+color:#ccc;
+max-width:600px;
+margin:auto;
+margin-top:10px;
+}
+
+
+
+/* BOTÃO */
+
+.botao{
+display:inline-block;
+margin-top:25px;
+padding:14px 28px;
+background:#c9a96e;
+color:black;
+text-decoration:none;
+border-radius:6px;
+font-weight:bold;
+transition:0.3s;
+}
+
+.botao:hover{
+background:#e0bf86;
+}
+
+
+
+/* ÁREA DE ATUAÇÃO */
+
+.atuacao{
+padding:100px 20px;
+text-align:center;
+background:#111;
+}
+
+.atuacao h2{
+color:#c9a96e;
+margin-bottom:50px;
+}
+
+.atuacao-grid{
+display:flex;
+justify-content:center;
+gap:35px;
+flex-wrap:wrap;
+}
+
+.atuacao-box{
+width:300px;
+padding:30px;
+border:1px solid rgba(201,169,110,0.2);
+border-radius:12px;
+background:#0b0b0b;
+}
+
+.atuacao-box h3{
+color:#c9a96e;
+}
+
+
+
+/* GALERIA */
+
+.galeria{
+text-align:center;
+padding:100px 20px;
+}
+
+.galeria h2{
+color:#c9a96e;
+margin-bottom:40px;
+}
+
+.galeria-grid{
+display:flex;
+justify-content:center;
+gap:25px;
+flex-wrap:wrap;
+margin-bottom:30px;
+}
+
+.galeria-grid img{
+width:340px;
+height:230px;
+object-fit:cover;
+border-radius:12px;
+border:1px solid rgba(201,169,110,0.3);
+}
+
+
+
+/* FOOTER */
+
+footer{
+background:black;
+padding:60px 20px;
+text-align:center;
+}
+
+.copy{
+color:#777;
+line-height:1.6;
+}
+
+
+
+/* BOTÕES FLUTUANTES */
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+padding:14px 20px;
+border-radius:30px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.instagram{
+position:fixed;
+bottom:80px;
+right:20px;
+background:#c9a96e;
+padding:14px 20px;
+border-radius:30px;
+color:black;
+text-decoration:none;
+font-weight:bold;
+}
+
+
+
+/* RESPONSIVO */
+
+@media(max-width:768px){
+
+.banner h2{
+font-size:28px;
+}
+
+.topo{
+flex-direction:column;
+text-align:center;
+}
+
+.logo{
+margin-bottom:10px;
+}
+
+}
